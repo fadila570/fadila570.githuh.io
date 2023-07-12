@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    #navbar2{
+             list-style-type: none;
+             color: white;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    nav ul li a{
+        color: #555;
+    }
+    .container{
+        max-width: 1200px;
+        margin: 20px auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .home-message{
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 30px;
+        background:cadetblue;
+        color: rgb(245, 204, 22);
+        border-radius: 30px;
+        margin-top: 25px;
+    }
+    .container h2{
+        text-align: center;
+        font-size: 1.8rem;
+        color: darkgrey;
+        margin: 25px 0;
+    }
+   .rounded{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding-top: none;
+   }
+   strong{
+    color: rgb(252, 186, 19);
+   }
+    
+    body{
+        background-color: cadetblue;
+    }
+    #about{
+        background-color: white;
+    }
+    #services{
+        background-color: white;
+    }
+    #titre{
+        color: rgb(240, 175, 10);
+    }
+   
+    .categorie{
+        margin: 70px 0;
+    }
+   .col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+   }
+   .col-3 img{
+    width: 70%;
+   }
+</style>
+</head>
+<body>
+    <nav id="navbar2" class="navbar navbar-expand-lg navbar-dark fixed-top" style=" background: rgba(10, 135, 139, 0.418);">
+    <header class="container-lg">
+        <a class="navbar-brand" href="#">
+            <span class="h3 fw-bold text white">Fadila_Cfa</span>
+        </a>
+        <button class="navbar-tooggler-icon" type="button" data-bs-tooggler="collapse" data-bs-target="#navbarnavAltmarkup"aria-controls="navbarNavAlt">
+            <span class="navbar-tooggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavbarMarkup">
+            <ul class="navbar-nav- ms-auto" id="navbar2">
+                <li class="nav-item">
+                    <a class="nav-link active text-uppercase" href="new cv.html">Acceuil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-uppercase" href="A propos de moi.html">A propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-uppercase" href="porte feuille.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-uppercase" href="Recent blog.html">Recent-Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-uppercase" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link data-bs-toggle" href="#" id="navbardropdown" role="button"data-bs-toggler="dropdown"aria-expanded="">
+                        anglais
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                    <li><a class="dropdown-item" href="#">anglais</a></li>
+                    <li><a class="dropdown-item" href="#">francais</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </header>
+</nav>
+    <section class="py-5" id="about">
+        <div class="container-lg py-4">
+            <div class="row min-vh-100 align-intem-center align-content-center">
+                <div class="col-md-6">
+                    <img src="photo.JPG" alt="" style="width: 450px; height: 450px;">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-uppercase text-center "><u>A propos de <span> Moi</span></u></h2><br><br>
+                    <h4>Moi c'est</h4>
+                    <h1>NCHETGNIGNIDI FADILA</h1>,
+                    <p>Etudiante en<strong > Genie Information</strong> plus precisement  <strong><abbr title="Gestion des Systemes d'Information">GSI</abbr></strong>  a l'institut<strong> Hintel</strong> </p>
+                    <p>Je suis une etudiante passionnee de la programmation et j'espere qu'avec le temps je pourrai apprendre les merveilles de ce metier</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="services">
+           <div class="container-lg py-4 ">
+            <div class="row justify-content-center ">
+               <div class="col-lg-8 ">
+                 <h2 class="text-uppercase text-center"><u>Mes <span>services</span></u></h2><br><br>
+                 <div class="row class">
+                    <div class="col-md-6 mx-2 mb-3" style="height: 200px; width: 200px; border: 1px solid black;"><h2><span  id="titre"><center>Bootstrap</center></span></h2> framework de frontend gratuit qui devient de plus en plus populaire parmi les développeurs de frontend</div>
+                    <div class="col-md-6 mx-2 mb-3" style="height: 200px; width: 200px; border: 1px solid black;"><h2><span id="titre" ><center>CSS</center></span></h2> langage de styles qui permet d'apporter du design au contenu HTML intégré.</div>
+                    <div class="col-md-6 mx-2 mb-3" style="height: 200px; width: 200px; border: 1px solid black;"><h2><span id="titre" ><center>HTML</center></span></h2>Langage de balisage utilisé pour la création de pages web, permettant notamment de définir des liens hypertextes.</div>
+                    <div class="col-md-6 mx-2 mb-3" style="height: 200px; width: 200px; border: 1px solid black;"><h2><span id="titre"> <center>JAVA</center></span></h2>  langage de programmation largement utilisé pour coder des applications web</div>
+                    <div class="col-md-6 mx-2 mb-3" style="height: 200px; width: 200px; border: 1px solid black;"><h2><span id="titre"><center>PHP</center></span></h2>  langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web.</div>
+                    <div class="col-md-6 mx-2 mb-3" style="height: 200px; width: 200px; border: 1px solid black;"> <h2><span id="titre"><center>JavaScript</center></span></h2>langage de programmation qui permet de créer du contenu mis à jour de façon dynamique</div>
+                    
+                 </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+   
+   </body>
+   </html>
